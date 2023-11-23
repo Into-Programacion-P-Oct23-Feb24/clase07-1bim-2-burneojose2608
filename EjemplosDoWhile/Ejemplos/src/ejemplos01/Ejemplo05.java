@@ -1,5 +1,5 @@
 /*
-
+el programa eleva un valor a la potencia que nostros queramos atraves de multiplicaciones 
  */
 package ejemplos01;
 
