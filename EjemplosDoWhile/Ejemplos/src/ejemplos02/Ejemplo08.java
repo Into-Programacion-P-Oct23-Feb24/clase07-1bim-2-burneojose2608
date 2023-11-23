@@ -37,12 +37,13 @@ public class Ejemplo08 {
                 signo = "-";
             }
             
-            cadena = String.format("%s%s%d/%d ", 
+            cadena = String.format("%s%s%d/%d\n ", 
                     cadena,
                     signo,
                     numerador, 
                     denominador);
             denominador = denominador + 1;
+            numerador = numerador +1;
 
         } while (denominador <= limite);
 
